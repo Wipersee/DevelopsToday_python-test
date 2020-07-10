@@ -4,7 +4,8 @@ ____
  1. go to the dir where Dockerfile is
  2. execute docker-compose build
  3. execute docker-compose run web python news/manage.py migrate
- 4. go to http://127.0.0.1:8000/api/news/ to see REST page
+ 4. execute docker-compose up
+ 5. go to http://127.0.0.1:8000/api/news/ to see REST page
  ____
  ##### Links:
  + Postman collection for API [go to](https://documenter.getpostman.com/view/9649099/T17M75tk?version=latest)
