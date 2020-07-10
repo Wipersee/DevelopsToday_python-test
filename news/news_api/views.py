@@ -51,5 +51,6 @@ class UpvoteCron(CronJobBase):
     def do(self):
         posts = Post.objects.all()
         for post in posts:
-            post.upvotes = 0
-            post.save()
+            #post.upvotes = 0
+            #post.save()
+            print(1)
